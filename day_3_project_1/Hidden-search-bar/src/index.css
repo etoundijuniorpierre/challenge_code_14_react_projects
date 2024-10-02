@@ -1,0 +1,54 @@
+#root {
+  height: 98vh;
+  width: 98vw;
+
+
+  .container {
+    height: 100%;
+    width: 100%;
+    background: rgb(172, 12, 212);
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+    #svg {
+      height: 80px;
+      width: 80px;
+      padding: 15px;
+      cursor: pointer;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+     
+    }
+
+
+  }
+
+.clickbox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+background: 'linear-gradient(0deg, rgba(29,2,27,1) 65%, rgba(38,4,34,1) 75%, rgba(129,28,109,1) 100%)'
+}
+
+  input {
+    outline: none;
+    border: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    background: transparent;
+    color: #fff;
+    height: 20px;
+    width: 180px;
+    margin-top: 80px;
+    margin-right: 45%;
+    font-weight: 700;
+    position: absolute;
+  }
+}
