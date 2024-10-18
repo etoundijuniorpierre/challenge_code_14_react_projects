@@ -1,0 +1,32 @@
+.box2, .box {
+    animation: animemov 0.5s ease-in-out;
+
+}
+
+@keyframes animemov {
+    0% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+#sub{
+    background: "red";
+    color: "white"; 
+    padding:"5px 25px";
+    background: red;
+    color: #fff;
+
+        &:hover {
+            background: rgb(241, 106, 106);
+    }
+}
+
+#cancel:hover {
+    background: #000000;
+}
