@@ -1,0 +1,106 @@
+#terreImg {
+  animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.fuseeImg {
+  animation: fly 7s linear;
+}
+
+@keyframes fly {
+  0% {
+    top: 80%;
+  }
+
+  20% {
+    top:65%;
+    opacity: 0.9;
+    width: 100px;
+    height: 100px;
+  }
+
+  40% {
+    top: 45%;
+    opacity: 0.7;
+    width: 80px;
+    height: 80px;
+  }
+
+  60% {
+    top: 25%;
+    opacity: 0.5;
+    width: 60px;
+    height: 60px;
+  }
+
+  80% {
+    top: 10%;
+    opacity: 0.1;
+    width: 40px;
+    height: 40px;
+  }
+
+  100% {
+    top: 0;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    
+  }
+}
+
+.animalImg {
+  animation: back 7s linear;
+}
+
+@keyframes back {
+  0% {
+    top: 0%;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  20% {
+    top: 5%;
+    opacity: 0.5;
+    width: 40px;
+    height: 40px;
+  }
+
+  40% {
+    top: 20%;
+    opacity: 0.9;
+    width: 60px;
+    height: 60px;
+  }
+
+  60% {
+    top: 40%;
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+  }
+
+  80% {
+    top: 55%;
+    width: 100px;
+    height: 100px;
+  }
+
+  100% {
+    top: 77%;
+    width: 120px;
+    height: 120px;
+  }
+}
