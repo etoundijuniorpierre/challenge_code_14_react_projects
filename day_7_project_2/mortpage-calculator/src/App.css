@@ -1,0 +1,50 @@
+.numb {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  outline: none;
+  border-radius: 3px;
+}
+
+#calbtn {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  color: #fff;
+  background: rgb(5, 128, 199);
+  margin-top: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.field1 {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  color: #000000;
+  background: rgb(255, 187, 187);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+.field2 {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  color: #021d0f;
+  background: rgb(115, 238, 217);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
