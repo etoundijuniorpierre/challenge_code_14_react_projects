@@ -11,7 +11,7 @@ function App() {
     const timeoutId = setTimeout(() => {
       const newState = <State />;
       setCurrentAspect(newState);
-    }, 7000); 
+    }, 5000); 
 
 
     return () => clearTimeout(timeoutId);
